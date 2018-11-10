@@ -13,11 +13,11 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(greet)
-  if greet.downcase = true 
+  if greet.downcase == true 
     puts "HUH?! SPEAK UP, SONNY!"
-  elsif greet.upcase = true 
+  elsif greet.upcase == true 
     puts "NO, NOT SINCE 1938!"
-  elsif greet = "I LOVE YOU GRANDMA!"
+  elsif greet == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN"
   end
 end
